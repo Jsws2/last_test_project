@@ -18,7 +18,7 @@ client = Groq(api_key=key)
 # Streamlit
 st.set_page_config(page_title="AI 학습 퀴즈 생성기", page_icon="", layout="wide")
 st.title("AI 학습 퀴즈 생성기")
-st.markdown("PDF나 TXT 파일을 업로드하면 AI가 자동으로 퀴즈를 .다니줍어들만 (Groq 기반)")
+st.markdown("PDF나 TXT 파일을 업로드하면 AI가 자동으로 퀴즈를 만들어줍니다. (Groq 기반)")
 
 # 파일 업로더
 uploaded_files = st.file_uploader(
